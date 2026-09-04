@@ -1,0 +1,9 @@
+[project]
+name = "hello-faf-api"
+version = "0.1.0"
+description = "hello-faf reference API — FastAPI, illustrative only"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.111", "uvicorn>=0.30", "sqlalchemy>=2.0", "psycopg[binary]>=3.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

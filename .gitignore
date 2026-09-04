@@ -1,0 +1,12 @@
+node_modules/
+.svelte-kit/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.turbo/
+project.fafb
+project.fafm
+project.fafa
+AGENTS.md
+CLAUDE.md

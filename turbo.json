@@ -1,0 +1,10 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "remoteCache": { "enabled": true },
+  "tasks": {
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**", ".svelte-kit/**"] },
+    "test": { "dependsOn": ["^build"] },
+    "lint": {},
+    "dev": { "cache": false, "persistent": true }
+  }
+}

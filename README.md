@@ -29,6 +29,19 @@ fafm add "..."  →  etch a memory
 fafa "..."      →  answer from the Trinity
 ```
 
+**Then the part that matters — open your own AI in this folder.** Claude
+Code, Cursor, whatever you use daily. Ask it: *"why FastAPI, not Django?"* or
+*"why Turborepo, not Nx?"* `AGENTS.md` doesn't inline the answer — by design,
+it points your AI at `project.faf` ("Read `project.faf` first") instead of
+keeping a second, driftable copy. A capable agent follows that and answers
+from fact. Compare the same question in a repo with no `.faf` at all — it
+guesses, confidently.
+
+A slot is a decision. An empty one gets re-decided from scratch, in-context,
+every session. `project.faf` fills 33 of them once — permanently off the
+table. Not one clever answer; every session, from here on, for free. That's
+the compound effect.
+
 Then the form: **https://faf.one/fafb-drive** — same questions for everyone.
 
 ## What's in here

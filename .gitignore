@@ -5,8 +5,18 @@ __pycache__/
 *.pyc
 .venv/
 .turbo/
+
+# Generated from project.faf — the source of truth. Regenerate any time:
+#   faf export   → AGENTS.md · CLAUDE.md · GEMINI.md · .cursorrules · copilot
+#   faf compile  → project.fafb (ROM)
+#   faf show     → project.html
+# project.faf is the only context file you author here.
 project.fafb
 project.fafm
 project.fafa
+project.html
 AGENTS.md
 CLAUDE.md
+GEMINI.md
+.cursorrules
+.github/copilot-instructions.md

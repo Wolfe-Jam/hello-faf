@@ -7,6 +7,9 @@ This is not a running product. The connection string in `project.faf` is a
 *shape*, not a live server; nothing here needs an account. It exists so you can
 see what a complete FAF context looks like before you author your own.
 
+`faf compile` turns that `project.faf` into a `.fafb` — the brick.
+[Anatomy of a Brick](https://faf.one/bricks) is the short version of what that is.
+
 ---
 
 ## Drive it
